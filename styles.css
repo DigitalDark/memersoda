@@ -1,0 +1,64 @@
+*{font-family:Arial;}
+*{color: #ffffff}
+tr:hover {background-color: rgb(41, 41, 41);}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333333a6;
+    font-family: Arial;
+  }
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* aligment na telefony ogolnie urzadzenia mobilne */
+    margin: 0; /* to co na gorze ale vertical */
+  }
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(111, 111, 111, 0.53);
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  rgba(160, 158, 158, 0.564);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdown-content a:hover {
+    background-color: rgba(188, 188, 188, 0.448);
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  } 
